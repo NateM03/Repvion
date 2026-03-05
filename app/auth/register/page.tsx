@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Footer } from '@/components/Footer'
 
 export default function RegisterPage() {
   const router = useRouter()
@@ -60,7 +61,8 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background p-4">
+    <div className="min-h-screen flex flex-col">
+      <div className="flex-1 flex items-center justify-center bg-background p-4">
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle>Create an Account</CardTitle>
@@ -125,6 +127,21 @@ export default function RegisterPage() {
                 className="w-full px-3 py-2 border rounded-md"
               />
             </div>
+            <p className="text-xs text-muted-foreground">
+              By creating an account, you agree to our{' '}
+              <Link href="/terms" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                Terms of Service
+              </Link>
+              ,{' '}
+              <Link href="/privacy" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                Privacy Policy
+              </Link>
+              , and{' '}
+              <Link href="/disclaimer" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+                Health & Safety Disclaimer
+              </Link>
+              .
+            </p>
             <Button type="submit" className="w-full" disabled={loading}>
               {loading ? 'Creating account...' : 'Sign Up'}
             </Button>
@@ -137,6 +154,8 @@ export default function RegisterPage() {
           </div>
         </CardContent>
       </Card>
+      </div>
+      <Footer />
     </div>
   )
 }
