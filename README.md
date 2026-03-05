@@ -1,4 +1,4 @@
-# YoMamaLifts - Workout Generator & Social Fitness Platform
+# Morelifts - Workout Generator & Social Fitness Platform
 
 YoMamaLifts is a full-stack fitness application that generates personalized workout plans, tracks progress with gamification (XP, levels, streaks), and includes social features like following friends and leaderboards.
 
