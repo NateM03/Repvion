@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <header className="border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold">YoMamaLifts</h1>
+          <h1 className="text-2xl font-bold">Repvion</h1>
           <div className="flex gap-4">
             <Link href="/auth/login">
               <Button variant="ghost">Login</Button>

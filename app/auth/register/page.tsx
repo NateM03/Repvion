@@ -64,7 +64,7 @@ export default function RegisterPage() {
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle>Create an Account</CardTitle>
-          <CardDescription>Join YoMamaLifts to start your fitness journey</CardDescription>
+          <CardDescription>Join Repvion to start your fitness journey</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

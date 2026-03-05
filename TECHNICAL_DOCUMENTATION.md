@@ -1,4 +1,4 @@
-# MoreLifts - Technical Documentation
+# Repvion - Technical Documentation
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -16,7 +16,7 @@
 
 ## Project Overview
 
-**MoreLifts** is a full-stack fitness application that combines personalized workout generation, social features, and gamification. The MVP focuses on:
+**Repvion** is a full-stack fitness application that combines personalized workout generation, social features, and gamification. The MVP focuses on:
 
 - **Customizable Workout Plans**: Users select exercises for their chosen routine (PPL, Arnold, Upper/Lower, Full Body)
 - **Workout Logging**: Track sets, reps, weight, and rest times during workouts
@@ -1212,7 +1212,7 @@ Used for: Fetching related data in one query
 
 ## Summary
 
-**YoMamaLifts** is a well-structured, type-safe full-stack application built with modern best practices:
+**Repvion** is a well-structured, type-safe full-stack application built with modern best practices:
 
 - **Scalable Architecture**: Next.js App Router, Prisma ORM, PostgreSQL
 - **Type Safety**: TypeScript throughout

@@ -1,6 +1,6 @@
-# Morelifts - Workout Generator & Social Fitness Platform
+# Repvion - Forge Your Strength
 
-MoreLifts is a full-stack fitness application that generates personalized workout plans, tracks progress with gamification (XP, levels, streaks), and includes social features like following friends and leaderboards.
+Repvion is a full-stack fitness application that generates personalized workout plans, tracks progress with gamification (XP, levels, streaks), and includes social features like following friends and leaderboards.
 
 ## Features
 
@@ -36,7 +36,7 @@ npm install
 Create a `.env` file in the root directory:
 
 ```env
-DATABASE_URL="postgresql://user:password@localhost:5432/fitforge?schema=public"
+DATABASE_URL="postgresql://user:password@localhost:5432/repvion?schema=public"
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_SECRET="your-secret-key-here-generate-with-openssl-rand-base64-32"
 ```
@@ -177,7 +177,7 @@ npm run db:studio    # Open Prisma Studio (database GUI)
 ## Project Structure
 
 ```
-fitforge/
+repvion/
 ├── app/                    # Next.js app directory
 │   ├── api/               # API routes
 │   ├── auth/              # Authentication pages

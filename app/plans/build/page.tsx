@@ -230,7 +230,7 @@ export default function BuildWorkoutPage() {
       <header className="border-b">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/plans">
-            <h1 className="text-2xl font-bold">YoMamaLifts</h1>
+            <h1 className="text-2xl font-bold">Repvion</h1>
           </Link>
         </div>
       </header>

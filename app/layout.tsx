@@ -6,8 +6,8 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'YoMamaLifts - Workout Generator & Social Fitness',
-  description: 'Personalized workout plans with social features and gamification',
+  title: 'Repvion - Forge Your Strength',
+  description: 'Forge Your Strength. Personalized workout plans with social features and gamification.',
 }
 
 export default function RootLayout({
